@@ -3,14 +3,14 @@
 
 ## 使用方法
 
-- 高级版
+### 高级版
  1. 使用编辑器的“一键导出所有文稿”功能，导出zip文件
  2. 运行 "CmdMarkdownBackup.exe"
  3. 将zip文件（或者zip文件解压缩目录）拖动到 "CmdMarkdownBackup.exe" 界面中
  4. 等待，直到所有资源下载完毕
  5. 备份内容位于zip文件同级同名目录
  
-- 免费版
+### 免费版
  1. 使用编辑器的“导出Markdown”功能，依次导出 .md 文件，并将这些文件放入一个新建目录中
  2. 运行 "CmdMarkdownBackup.exe"
  3. 将新建目录拖动到 "CmdMarkdownBackup.exe" 界面中
