@@ -1,5 +1,5 @@
 # CmdMarkdownBackup
-备份[【Cmd Markdown 编辑阅读器】](https://www.zybuluo.com/mdeditor)编写的 *.md 文件和其中引用的图片、资源
+备份[Cmd Markdown 编辑阅读器](https://www.zybuluo.com/mdeditor)编写的 *.md 文件和其中引用的图片、资源
 
 ## 使用方法
 
