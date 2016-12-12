@@ -48,7 +48,7 @@ EnvSet, PATH, %WinRarPath%`;%Ahk2ExePath%`;%Paths%
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; 将应用程序由ahk编译为exe
-Loop, %A_ScriptDir%\scripts\*.ahk
+Loop, %A_WorkingDir%\scripts\*.ahk
 {
 	StringReplace, ExeName, A_LoopFileFullPath, .ahk, .exe
 
@@ -65,7 +65,7 @@ Loop, %A_ScriptDir%\scripts\*.ahk
 }
 
 ; 将Loader.ahk编译为Loader.exe
-Loop, %A_ScriptDir%\Loader.ahk
+Loop, %A_WorkingDir%\Loader.ahk
 {
 	StringReplace, ExeName, A_LoopFileFullPath, .ahk, .exe
 
